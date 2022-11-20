@@ -1,0 +1,4 @@
+方法1:命令行方式
+python -m PyQt5.uic.pyuic demo.ui -o demo.py
+
+方法2：直接调用Pyuic
