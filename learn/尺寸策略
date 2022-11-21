@@ -1,0 +1,27 @@
+尺寸策略（sizePolicy）
+
+sizeHint(期望尺寸)
+
+每个控件的期望尺寸是不一样的
+
+sizeHint对于大多数控件来说是只读的，不能设置
+
+读取期望尺寸
+self.pushButten.sizeHint().width()      # 77
+self.pushButten.sizeHint().height()     # 32
+
+QPushButton width:77 height:32
+QTextEdit width:256 height:192
+
+最小期望尺寸
+self.pushButten.miniSizeHint().width()     # 77
+self.pushButten.miniSizeHint().height()    # 32
+
+水平策略:
+Minimum: 控件的宽度不能小于最小期望尺寸
+Maximum: 反之亦然
+Fixed: 使得控件的尺寸等于最小尺寸
+Expanding: 根据水平伸展来配合  设置比例
+
+高度策略：同水平策略
+
