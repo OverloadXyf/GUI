@@ -3,7 +3,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow
 import ToolBar as toolbar
 
 '''
-sizepolicy
+QTDesigner目前只能设置工具条 其中的动作只能通过代码来实现
 '''
 
 if __name__ == '__main__':
