@@ -12,7 +12,7 @@ class FirstMainWindow(QMainWindow):
         # 设置主窗口的标题
         self.setWindowTitle('第一个主窗口应用')
 
-        # 设置窗口的尺寸
+        # 设置窗口的尺寸 
         self.resize(400, 300)
 
         # 初始化一个状态栏
